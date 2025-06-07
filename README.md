@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi, I’m Garry Ledwith
 
-## Getting Started
+I'm a mature Computing student (BSc Level 8) at ATU Sligo
 
-First, run the development server:
+## Current Projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **MacroMate** – A calorie & macro tracking web app (React + Node).
+- **QuickTender (coming soon)** – Smart tender alert SaaS for Irish businesses.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Focus Areas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Full-Stack Development → React (Next.js), Node.js, Tailwind CSS  
+- AI & Automation → NLP, LLM agents, Whisper, OpenAI APIs  
+- DevOps & Tooling → Docker, Firebase, GitHub Actions
 
-## Learn More
+## Currently Learning
 
-To learn more about Next.js, take a look at the following resources:
+- TypeScript & Tailwind (for production-ready UIs)
+- Machine Learning foundations (NLP, transformers, prompt engineering)
+- Clean architecture & testing best practices
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Background
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 5+ years experience in web design, SEO & digital marketing  
+- Founder of multiple small businesses and now building my first AI startup  
+- Passionate about building software that solves real-world problems
 
-## Deploy on Vercel
+## Let’s connect
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Portfolio Website](https://garryledwith.dev)
+- [LinkedIn](https://www.linkedin.com/in/garryledwith)
+- Email: garry.ledwith [at] gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+“Build fast, learn faster, and keep it real.”
+

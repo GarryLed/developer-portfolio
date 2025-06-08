@@ -1,8 +1,95 @@
+"use client";
+
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+
 export default function HomePage() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
+
   return (
-    <section className="p-6 text-center">
-      <h1 className="text-4xl font-bold">👋 Hi, I&#39;m Garry</h1>
-      <p className="mt-2 text-gray-600 dark:text-gray-300">Software Engineer · AI Enthusiast · Builder of ResQAssist AI</p>
-    </section>
+    <main className="relative flex flex-col items-center justify-center min-h-screen px-6 py-12 bg-gradient-to-tr from-black via-gray-900 to-gray-800 text-white overflow-hidden">
+      {/* Background Particles or Image Overlay */}
+      <div className="absolute inset-0 z-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center opacity-10 blur-sm" />
+
+      {/* Content */}
+      <motion.div
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="z-10 text-center"
+      >
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 tracking-tight">
+          👨‍💻 GarCodes
+        </h1>
+        
+        <motion.h2
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-3xl md:text-5xl font-extrabold text-gray-900 dark:text-white text-center mb-4"
+        >
+          Hi, I’m Garry, a third-year Computing student, mature career-changer, and creator of <span className="text-green-500">GarCodes</span>.
+        </motion.h2>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8 }}
+          className="text-lg md:text-xl text-gray-700 dark:text-gray-300 text-center max-w-2xl mx-auto"
+>
+  I’m on a mission to break into tech with a modern full-stack portfolio, engaging YouTube & TikTok tutorials, and a deep love for learning. Looking for a 2026 work placement in software engineering – let’s build something great together.
+</motion.p>
+
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.4 }}
+          className="flex flex-wrap justify-center gap-4"
+        >
+          <Link
+            href="/projects"
+            className="px-6 py-3 rounded bg-indigo-600 hover:bg-indigo-700 transition"
+          >
+            🚀 View Projects
+          </Link>
+          <Link
+            href="/contact"
+            className="px-6 py-3 rounded bg-gray-200 text-gray-900 hover:bg-gray-300 transition dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+          >
+            📬 Contact Me
+          </Link>
+          <a
+            href="https://www.youtube.com/@garcodes"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded bg-red-600 hover:bg-red-700 transition"
+          >
+            ▶️ YouTube
+          </a>
+          <a
+            href="https://www.tiktok.com/@garcodes"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded bg-black text-white hover:bg-gray-900 transition"
+          >
+            🎥 TikTok
+          </a>
+        </motion.div>
+      </motion.div>
+
+      {/* Optional image of yourself */}
+      <motion.img
+        src="/profile.png"
+        alt="Garry Ledwith"
+        className="w-40 h-40 rounded-full border-4 border-white shadow-lg mt-12 z-10"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.6, duration: 0.6 }}
+      />
+    </main>
   );
 }

@@ -30,7 +30,9 @@ I'm a mature Computing student (BSc Level 8) at ATU Sligo
 
 - [Portfolio Website](https://garryledwith.dev)
 - [LinkedIn](https://www.linkedin.com/in/garryledwith)
-- Email: garry.ledwith [at] gmail.com
+- Email: garry.ledwith@gmail.com
+- TikTok: @garcodes
+- [YouTube Channel](https://www.youtube.com/@Garcode-x6f) 
 
 ---
 

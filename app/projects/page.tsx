@@ -26,6 +26,34 @@ const projects = [
     github: "https://github.com/GarryLed/E-Commerce-Store-MERN",
     demo: "https://e-commerce-store-mern.vercel.app",
   },
+  {
+    title: "Quick Tender",
+    description: "QuickTender is a smart tender notification platform designed for Irish SMEs, consultants, and tradespeople who want to stay ahead of public contract opportunities. It automatically filters daily tenders from eTenders Ireland based on user-defined keywords, sectors.",
+    tags: ["Next.js", "Subbase (Postgres)", "Puppeteer / cheerio", "TypeScript"],
+    github: "https://github.com/GarryLed/quicktender",
+    demo: "https://quick-tender-notification.vercel.app",
+  },
+  {
+    title: "E-commerce Chatbot",
+    description: "An AI-powered chatbot for e-commerce websites, built with Next.js and OpenAI's GPT-3.5 Turbo.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/GarryLed/e-commerce-chatbot",
+    demo: "https://e-commerce-chatbot.vercel.app/",
+  },
+  {
+    title: "Kanes N4x4 Website",
+    description: "A  website showcasing my projects and skills, built with Next.js and Tailwind CSS.",
+    tags: ["Wordpress"],
+    github: "#",
+    demo: "https://kanesn4x4.ie/",
+  }, 
+  {
+    title: "Fabworx Engineering Website",
+    description: "A personal portfolio website built with Next.js and Tailwind CSS, showcasing my projects and skills.",
+    tags: ["Wordpress", "Elementor"],
+    github: "#",
+    demo: "https://fabworx.ie/",
+  }
 ];
 
 export default function ProjectsPage() {

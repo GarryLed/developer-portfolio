@@ -88,6 +88,7 @@ const ContactPage = () => {
       <div className="mt-10 text-center">
         <p className="text-sm text-gray-500 dark:text-gray-400">or reach me at: <a href="mailto:garryledwith@gmail.com" className="text-indigo-600 dark:text-indigo-400">garryledwith@gmail.com</a></p>
 
+{/* Social Media Links */}
         <div className="flex justify-center gap-6 text-2xl mt-4">
           <a
             href="https://www.youtube.com/@garcodes"

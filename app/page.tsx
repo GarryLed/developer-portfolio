@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import SkillBars from "@/components/Skills";
+import SocialMedia from "@/components/SocialMedia";
 
 export default function HomePage() {
   const [mounted, setMounted] = useState(false);
@@ -27,14 +28,14 @@ export default function HomePage() {
           👨‍💻 GarCodes
         </h1>
         
-        <motion.h2
+        <motion.h3
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-3xl md:text-5xl font-extrabold text-gray-900 dark:text-white text-center mb-4"
         >
-          Hi, I’m Garry, a third-year Computing student, mature career-changer, and creator of <span className="text-green-500">GarCodes</span>.
-        </motion.h2>
+          Hi, I’m Garry, a third-year mature computing student, and creator of <span className="text-green-500">GarCodes</span>.
+        </motion.h3>
 
         <motion.p
           initial={{ opacity: 0 }}
@@ -42,8 +43,8 @@ export default function HomePage() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-lg md:text-xl text-gray-700 dark:text-gray-300 text-center max-w-2xl mx-auto"
 >
-  I’m on a mission to break into tech with a modern full-stack portfolio, engaging YouTube & TikTok tutorials, and a deep love for learning. 
-  Looking for a 2026 work placement in software engineering – let’s build something great together. 
+  I’m on a mission to further my skills in software development, continue to create engaging YouTube & TikTok tutorials, and I have a deep love for learning. 
+  Looking for a 2026 work placement in software engineering, let’s build something great together.
 
 </motion.p>
 
@@ -72,22 +73,6 @@ export default function HomePage() {
           >
             📬 Contact Me
           </Link>
-          <a
-            href="https://www.youtube.com/@garcodes"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 rounded bg-red-600 hover:bg-red-700 transition"
-          >
-            ▶️ YouTube
-          </a>
-          <a
-            href="https://www.tiktok.com/@garcodes"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-6 py-3 rounded bg-black text-white hover:bg-gray-900 transition"
-          >
-            🎥 TikTok
-          </a>
         </motion.div>
       </motion.div>
 
@@ -100,6 +85,11 @@ export default function HomePage() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.6, duration: 0.6 }}
       />
+
+      {/* Socials */}
+     <section className="mt-12">
+        <SocialMedia />
+      </section>
     </main>
   );
 }

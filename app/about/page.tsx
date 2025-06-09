@@ -16,8 +16,8 @@ export default function AboutPage() {
         <h1 className="text-4xl font-bold mb-4 text-center">👨‍💻 About Me</h1>
 
         <p className="text-lg leading-relaxed mb-6">
-          Hey, I'm <strong>Garry</strong> – a third-year Computing student based in Ireland and a mature career-changer with a background in web design and digital marketing.
-          I spent years running a small business, but my passion for software engineering led me back to college, and I haven't looked back since.
+          Hey, I'm Garry, a third-year Computing student at ATU Sligo, and a mature career-changer with a background in web design and digital marketing.
+          I spent years running a small web design business, but my passion for software engineering led me back to college, and I haven't looked back since.
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
@@ -30,7 +30,7 @@ export default function AboutPage() {
         </p>
 
         <p className="text-lg leading-relaxed mb-6">
-          I'm actively seeking a <strong>2025 software engineering placement</strong> in a company that values curiosity, clean code, and growth. If you're hiring or want to collaborate, feel free to reach out via my <Link href="/contact" className="text-indigo-500 underline">contact page</Link>.
+          I'm actively seeking a <strong>2026 software engineering placement</strong> in a company that values curiosity, clean code, and growth. If you're hiring or want to collaborate, feel free to reach out via my <Link href="/contact" className="text-indigo-500 underline">contact page</Link>.
         </p>
 
         <div className="mt-8 flex justify-center">

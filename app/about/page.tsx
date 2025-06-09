@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
+import SkillBars from "@/components/Skills";
+
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen px-6 py-12 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
@@ -43,6 +46,11 @@ export default function AboutPage() {
           />
         </div>
       </motion.div>
+
+      {/* Skills section */}
+      <section className="mt-12 max-w-3xl mx-auto px-4">
+        <SkillBars />
+      </section>
     </main>
   );
 }

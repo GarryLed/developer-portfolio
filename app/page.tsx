@@ -43,7 +43,7 @@ export default function HomePage() {
           transition={{ delay: 0.2, duration: 0.8 }}
           className="text-lg md:text-xl text-gray-700 dark:text-gray-300 text-center max-w-2xl mx-auto"
 >
-  I’m on a mission to further my skills in software development, continue to create engaging YouTube & TikTok tutorials, and I have a deep love for learning. 
+  I’m on a mission to further my skills in software development, continue to create engaging YouTube & TikTok tutorials, and foster my love for learning.
   Looking for a 2026 work placement in software engineering, let’s build something great together.
 
 </motion.p>

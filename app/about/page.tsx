@@ -16,7 +16,7 @@ export default function AboutPage() {
         transition={{ duration: 0.6 }}
         className="max-w-3xl mx-auto"
       >
-        <h1 className="text-4xl font-bold mb-4 text-center">👨‍💻 About Me</h1>
+        <h1 className="text-4xl font-bold mb-4 text-center">About Me</h1>
 
         <p className="text-lg leading-relaxed mb-6">
           Hey, I'm Garry, a third-year Computing student at ATU Sligo, and a mature career-changer with a background in web design and digital marketing.

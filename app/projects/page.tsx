@@ -41,7 +41,7 @@ const projects = [
     demo: "https://e-commerce-chatbot.vercel.app/",
   },
   {
-    title: "Kanes N4x4 Website",
+    title: "KanesN4x4 Website",
     description: "A  website showcasing my projects and skills, built with Next.js and Tailwind CSS.",
     tags: ["Wordpress"],
     github: "#",
@@ -109,6 +109,19 @@ export default function ProjectsPage() {
             </div>
           </motion.div>
         ))}
+      </div>
+{/* Contact link Section */}
+      <div className="flex justify-center mt-10 text-center">
+        <tr>
+          <th colSpan={2}>
+            <Link
+              href="/contact"
+              className="inline-block px-6 py-3 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
+            >
+              Want to work together? Contact me!
+            </Link>
+          </th>
+        </tr>
       </div>
     </main>
   );
